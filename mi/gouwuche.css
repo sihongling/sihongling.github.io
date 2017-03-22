@@ -1,0 +1,79 @@
+html,body{
+    margin: 0px;
+    height: 100%;
+}
+body{
+    background-color: beige;;
+}
+*{
+    box-sizing: border-box;
+}
+img{
+    width: 100%;
+}
+
+.top{
+    height: 70px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    
+   background-color: gainsboro;
+}
+.top>div{
+    float: left;
+    width: calc(100% / 3);
+   
+}
+.top>div>span{
+    font-size: 30px;
+}
+.top div:nth-child(2) p{
+    text-align: center;
+    font-size: 30px;
+    line-height: 30px;
+    margin: 0px;
+}
+.top div:nth-child(3){
+   text-align: right;
+}
+.tanhao{
+    width: 30%;
+    margin: 0 auto;
+}
+.zhong>input{
+    border: none;
+    width: 30%;
+    font-size: 20px;
+    margin:50px 10px 50px 10px;
+    line-height: 80px;
+    
+}
+.zhong{
+    
+    margin: 0 auto;
+    text-align: center;
+}
+.zhong input:nth-child(2){
+    background-color: orangered;
+}
+.container-fluid>ul{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+.container-fluid>ul>li{
+    float: left;
+    width: calc(100% / 4);
+    text-align: center;
+}
+.container-fluid>ul>li>a{
+    color: gray;
+}
+.container-fluid>ul>li>a>span{
+    font-size: 20px;
+    color: gray;
+    margin-top: 5px;
+}
+.container-fluid>ul>li>a>p{
+    margin-bottom: 5px;
+}

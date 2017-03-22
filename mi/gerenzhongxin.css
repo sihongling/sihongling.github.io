@@ -1,0 +1,124 @@
+html,body{
+    margin: 0px;
+    height: 100%;
+}
+body{
+    background-color: beige;;
+}
+*{
+    box-sizing: border-box;
+}
+.top{
+    height: 70px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    
+   background-color: gainsboro;
+}
+.top>div{
+    float: left;
+    width: calc(100% / 3);
+   
+}
+.top>div>span{
+    font-size: 30px;
+}
+.top div:nth-child(2) p{
+    text-align: center;
+    font-size: 30px;
+    line-height: 30px;
+    margin: 0px;
+}
+.top div:nth-child(3){
+   text-align: right;
+}
+.denglu{
+    width: 100%;
+    background-color: orangered;
+    text-align: center;
+    padding: 10px;
+    
+}
+h2{
+    color: white;
+}
+.denglu .glyphicon{
+    font-size: 50px;
+    color: white;
+    margin: 20px;
+}
+.tubiao{
+   width: 100px;
+   height: 100px;
+    background-color: yellowgreen;
+    border-radius: 50%;
+    margin: 10px auto -60px auto;
+   
+}
+.zhongjian{
+    margin-top: 70px;
+}
+.zhongjian::after{
+     display: block;
+    visibility: hidden;
+    content: "";
+    height: 0px;
+    clear: both;
+}
+.zhongjian>div{
+    float: left;
+    width: calc(100% / 3);
+    text-align: center;
+}
+.zhongjian div>span{
+    font-size: 30px;
+    color: gray;
+}
+.xian1{
+    background-color: red;
+    width: 50px;
+    height: 2px;
+}
+.xian2{
+     background-color: yellowgreen;
+    width: 50px;
+    height: 2px;
+}
+.xian3{
+      background-color: purple;
+    width: 50px;
+    height: 2px;
+}
+.bottom{
+    height: 40px;
+    background-color: white;
+}
+.bottom div{
+    float: left;
+    margin: 10px 10px 10px 20px;
+    border: 1px solid white;
+}
+.clear{
+    clear: both;
+}
+.container-fluid>ul{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+.container-fluid>ul>li{
+    float: left;
+    width: calc(100% / 4);
+    text-align: center;
+}
+.container-fluid>ul>li>a{
+    color: gray;
+}
+.container-fluid>ul>li>a>span{
+    font-size: 20px;
+    color: gray;
+    margin-top: 5px;
+}
+.container-fluid>ul>li>a>p{
+    margin-bottom: 5px;
+}

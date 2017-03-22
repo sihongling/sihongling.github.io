@@ -1,0 +1,98 @@
+html,body{
+    margin: 0px;
+    height: 100%;
+}
+body{
+    background-color: beige;;
+}
+*{
+    box-sizing: border-box;
+}
+img{
+    width: 100%;
+}
+.container-fluid{
+    padding: 0px;
+}
+.top{
+    height: 70px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    
+   background-color: gainsboro;
+}
+.top>div{
+    float: left;
+    width: calc(100% / 3);
+   
+}
+.top>div>span{
+    font-size: 30px;
+}
+.top div:nth-child(2) p{
+    text-align: center;
+    font-size: 30px;
+    line-height: 30px;
+    margin: 0px;
+}
+.top div:nth-child(3){
+   text-align: right;
+}
+h3{
+    text-align: center;
+}
+.tu{
+    display: flex;
+     flex-wrap: wrap;
+   
+
+}
+.tu::after{
+    display: block;
+    visibility: hidden;
+    height: 0px;
+    content: "";
+    clear: both;
+}
+.tu>div{
+    float: left;
+    text-align: center;
+    flex-grow: 1;
+    flex-basis: calc(100% / 4);
+    flex-wrap: wrap;
+   
+}
+.zhong{
+    margin: 10px;
+    margin-bottom: 30px;
+    background-color: white;
+    padding: 10px;
+}
+.container-fluid>ul{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+.container-fluid>ul>li{
+    float: left;
+    width: calc(100% / 4);
+    text-align: center;
+}
+.container-fluid>ul>li>a{
+    color: gray;
+}
+.container-fluid>ul>li>a>span{
+    font-size: 20px;
+    color: gray;
+    margin-top: 5px;
+}
+.container-fluid>ul>li>a>p{
+    margin-bottom: 5px;
+}
+.xia{
+    margin: 10px;
+    margin-bottom: 50px;
+    background-color: white;
+    padding: 10px;
+    
+}

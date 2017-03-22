@@ -1,0 +1,121 @@
+*{
+    box-sizing: border-box;
+}
+html,body{
+    margin: 0px;
+}
+body{
+    height: 100%;
+}
+.container-fluid{
+    padding: 0px;
+}
+img{
+    width: 100%;
+}
+.navbar-fixed-top{
+    background-color: rgba(0, 0, 0, 0)!important;
+}
+.logo>img{
+    
+    float: right;
+    padding-top: 2px;
+}
+.container>div{
+    float: left;
+}
+.form{
+    width: 82%;
+}
+.form>input{
+    height: 34px;
+   
+}
+.logo{
+    width: 10%;
+    margin-right: 10px;
+}
+
+.form input:nth-child(1){
+   
+    width: 70%;
+}
+.form input:nth-child(2){
+   width: 20%;
+    border: none;
+    font-size: 20px;
+    color: peru;
+     background-color: rgba(0, 0, 0, 0);
+    
+   
+}
+.navbar-fixed-top{
+    margin-top: 20px;
+    border: 0px;
+}
+.guanggao{
+    height: 45px;
+}
+.guanggao>h4{
+float: left;
+color: orangered;
+margin-top: 15px;
+}
+.guanggao>span{
+    float: left;
+    border-left: 2px solid gray;
+    /*font-size: 30px;*/
+    margin: 15px 0px 10px 20px;
+    padding-left: 20px;
+}
+.one>div{
+    float: left;
+    width: 50%;
+  
+}
+
+.one::after{
+    display: block;
+    visibility: hidden;
+    content: "";
+    height: 0px;
+    clear: both;
+}
+.one{
+    background-color: gainsboro;
+    margin-bottom: 50px;
+}
+.one .zuo{
+    padding: 10px 5px 10px 10px;
+}
+.one .you{
+    padding: 10px 10px 10px 5px;
+   
+}
+.one .you>div{
+ border: 1px solid gainsboro;
+}
+.one .you>div:nth-child(2){
+    margin-top: 29px;
+}
+.container-fluid>ul{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+.container-fluid>ul>li{
+    float: left;
+    width: calc(100% / 4);
+    text-align: center;
+}
+.container-fluid>ul>li>a{
+    color: gray;
+}
+.container-fluid>ul>li>a>span{
+    font-size: 20px;
+    color: gray;
+    margin-top: 5px;
+}
+.container-fluid>ul>li>a>p{
+    margin-bottom: 5px;
+}

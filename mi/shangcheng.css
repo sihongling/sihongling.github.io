@@ -1,0 +1,83 @@
+*{
+    box-sizing: border-box;
+}
+html,body{
+    margin: 0px;
+}
+body{
+    height: 100%;
+}
+
+img{
+    width: 100%;
+}
+.container-fluid{
+    padding: 0px;
+}
+.top::after{
+    display: block;
+    visibility: hidden;
+    content: "";
+    height: 0px;
+    clear: both;
+}
+.top>div{
+    float: left;
+    width: calc(100% / 3);
+}
+.bottom .bufen>div{
+float: left;
+}
+.bottom .bufen div:nth-child(1){
+    width: calc(100% / 3);
+}
+.bottom .bufen div:nth-child(2){
+    width: calc(100% / 3 * 2);
+}
+.bufen::after{
+    display: block;
+    visibility: hidden;
+    content: "";
+    height: 0px;
+    clear: both;
+}
+.remai{
+    /*background-image: url(image/mimall/hot.png);
+    background-size: 50% 50%;*/
+    position: relative;
+}
+.hot{
+    width: 50%;
+    position: absolute;
+   text-align: center;
+}
+span{
+    color: red;
+}
+.container-fluid>ul{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+.container-fluid>ul>li{
+    float: left;
+    width: calc(100% / 4);
+    text-align: center;
+}
+.container-fluid>ul>li>a{
+    color: gray;
+}
+.container-fluid>ul>li>a>span{
+    font-size: 20px;
+    color: gray;
+    margin-top: 5px;
+}
+.container-fluid>ul>li>a>p{
+    margin-bottom: 5px;
+}
+.bottom{
+    margin-bottom: 50px;
+}
+h3{
+    margin-top: 0px;
+}
